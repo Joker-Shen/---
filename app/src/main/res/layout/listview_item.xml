@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.qianfeng.fragment.SecondFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_height="80dp">
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="310dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="这是标题"/>
+
+        <TextView
+            android:id="@+id/tvOther"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="其他一堆"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"/>
+
+</RelativeLayout>

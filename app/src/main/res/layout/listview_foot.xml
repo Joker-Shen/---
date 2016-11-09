@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:gravity="center_horizontal"
+    tools:context="com.qianfeng.tea.CopyRightActivity">
+        <ImageView
+            android:id="@+id/ivfoot"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:background="@android:color/holo_green_light"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:layout_width="200dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="点击加载下一页"/>
+</RelativeLayout>
